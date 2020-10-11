@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/jeffreycao1998.github.io/public/static/js/main.c2ec5d81.chunk.js",
-    "main.js.map": "/jeffreycao1998.github.io/public/static/js/main.c2ec5d81.chunk.js.map",
-    "runtime-main.js": "/jeffreycao1998.github.io/public/static/js/runtime-main.8d91cc79.js",
-    "runtime-main.js.map": "/jeffreycao1998.github.io/public/static/js/runtime-main.8d91cc79.js.map",
-    "static/js/2.a311aae1.chunk.js": "/jeffreycao1998.github.io/public/static/js/2.a311aae1.chunk.js",
-    "static/js/2.a311aae1.chunk.js.map": "/jeffreycao1998.github.io/public/static/js/2.a311aae1.chunk.js.map",
-    "index.html": "/jeffreycao1998.github.io/public/index.html",
-    "precache-manifest.0af6b530ae1d3ec8d851bde2263e5340.js": "/jeffreycao1998.github.io/public/precache-manifest.0af6b530ae1d3ec8d851bde2263e5340.js",
-    "service-worker.js": "/jeffreycao1998.github.io/public/service-worker.js",
-    "static/js/2.a311aae1.chunk.js.LICENSE.txt": "/jeffreycao1998.github.io/public/static/js/2.a311aae1.chunk.js.LICENSE.txt"
+    "main.js": "/jeffreycao1998.github.io/static/js/main.c2ec5d81.chunk.js",
+    "main.js.map": "/jeffreycao1998.github.io/static/js/main.c2ec5d81.chunk.js.map",
+    "runtime-main.js": "/jeffreycao1998.github.io/static/js/runtime-main.b40e3e71.js",
+    "runtime-main.js.map": "/jeffreycao1998.github.io/static/js/runtime-main.b40e3e71.js.map",
+    "static/js/2.d5dc3db3.chunk.js": "/jeffreycao1998.github.io/static/js/2.d5dc3db3.chunk.js",
+    "static/js/2.d5dc3db3.chunk.js.map": "/jeffreycao1998.github.io/static/js/2.d5dc3db3.chunk.js.map",
+    "index.html": "/jeffreycao1998.github.io/index.html",
+    "precache-manifest.422ffdeb43c385937d05a3cb02779743.js": "/jeffreycao1998.github.io/precache-manifest.422ffdeb43c385937d05a3cb02779743.js",
+    "service-worker.js": "/jeffreycao1998.github.io/service-worker.js",
+    "static/js/2.d5dc3db3.chunk.js.LICENSE.txt": "/jeffreycao1998.github.io/static/js/2.d5dc3db3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d91cc79.js",
-    "static/js/2.a311aae1.chunk.js",
+    "static/js/runtime-main.b40e3e71.js",
+    "static/js/2.d5dc3db3.chunk.js",
     "static/js/main.c2ec5d81.chunk.js"
   ]
 }
