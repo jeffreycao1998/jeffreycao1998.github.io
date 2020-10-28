@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import Project from './Project';
 
 const Container = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  font-family: 'poppins', 'sans-serif';
   max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -58,6 +61,12 @@ const Projects = () => {
         imageUrl={'https://i.gyazo.com/3c33411cc19e916fce17c008cc524eca.png'} 
         name={'Interview Scheduler'} 
         stack={'React, CSS, PostgreSQL, Socket.io'} 
+      />
+      <Project 
+        link={'https://github.com/jeffreycao1998/frontend-experiments/tree/main/gsap/gsap1'}
+        imageUrl={'https://media3.giphy.com/media/543O7EebJnnPxDiiPt/giphy.gif'} 
+        name={'GSAP Animation'} 
+        stack={'GSAP3, Scroll-Magic'} 
       />
     </Container>
   );
