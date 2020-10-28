@@ -54,7 +54,7 @@ font-family: 'poppins';
 const Project = ({ link, imageUrl, name, stack }) => {
   return(
     <Container>
-      <a href={link} target='_blank'>
+      <a href={link} target='blank'>
         <div className='image-container'>
           <img src={imageUrl} alt={name} />
         </div>
