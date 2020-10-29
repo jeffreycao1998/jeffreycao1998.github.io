@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-font-family: 'poppins';
   width: 100%;
   height: 280px;
   border: 1px solid white;
