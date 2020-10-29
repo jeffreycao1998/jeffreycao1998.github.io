@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import Project from './Project';
 
 const Container = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  font-family: 'poppins', 'sans-serif';
   max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
