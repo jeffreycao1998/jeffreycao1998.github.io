@@ -4,6 +4,13 @@ object-assign
 @license MIT
 */
 
+/*!
+ * ScrambleText
+ * https://github.com/yomotsu/ScrambleText
+ * (c) 2017 @yomotsu
+ * Released under the MIT License.
+ */
+
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
