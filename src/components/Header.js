@@ -1,18 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
+import ScrambleText from 'scramble-text';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
 } from 'react-router-dom';
+
 import About from './About.js';
 import Projects from './Projects.js';
 
 const HeaderContainer = styled.div`
-  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-  font-family: 'poppins'; */
   height: 102px;
   padding-top: 32px;
   margin-bottom: 32px;
@@ -73,6 +72,27 @@ const HeaderContainer = styled.div`
 `;
 
 const Header = () => {
+  
+  useEffect(() => {
+    const name = document.querySelector('.name');
+    const scrambleText = new ScrambleText(name, {
+      timeOffset: 200,
+      chars: [
+        '安','以','宇','衣','於',
+        '加','幾','久','計','己',
+        '左','之','寸','世','曽',
+        '太','知','川','天','止',
+        '奈','仁','奴','称','乃',
+        '波','比','不','部','保',
+        '末','美','武','女','毛',
+        '也','為','由','恵','与',
+        '良','利','留','礼','呂',
+        '和','遠','无'
+      ],
+    }).play();
+    scrambleText.start();
+  },[]);
+
   return(
     <Router>
       <HeaderContainer>

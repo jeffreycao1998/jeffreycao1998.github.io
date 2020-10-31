@@ -33,6 +33,18 @@ const Projects = () => {
   return(
     <Container>
       <Project 
+        link={'https://github.com/jeffreycao1998/sudoku-solver'}
+        imageUrl={'https://media1.giphy.com/media/pny4FrpjB0LPQJ3zvT/giphy.gif'} 
+        name={'Sudoku Solver'} 
+        stack={'React, Styled Components'} 
+      />
+      <Project 
+        link={'https://github.com/jeffreycao1998/frontend-experiments/tree/main/gsap/gsap1'}
+        imageUrl={'https://media3.giphy.com/media/543O7EebJnnPxDiiPt/giphy.gif'} 
+        name={'GSAP Animation'} 
+        stack={'GSAP3, Scroll-Magic'} 
+      />
+      <Project 
         link={'https://moodify.ca/'}
         imageUrl={'https://i.imgur.com/SNnglX8.png'} 
         name={'Moodify'} 
@@ -55,18 +67,6 @@ const Projects = () => {
         imageUrl={'https://i.gyazo.com/f91c714a022362da0711f26f7d92242c.png'} 
         name={'Coronavirus Tracker'} 
         stack={'HTML, CSS, JavaScript, ChartJS'} 
-      />
-      <Project 
-        link={'https://interview-scheduler-jc.netlify.app/'}
-        imageUrl={'https://i.gyazo.com/3c33411cc19e916fce17c008cc524eca.png'} 
-        name={'Interview Scheduler'} 
-        stack={'React, CSS, PostgreSQL, Socket.io'} 
-      />
-      <Project 
-        link={'https://github.com/jeffreycao1998/frontend-experiments/tree/main/gsap/gsap1'}
-        imageUrl={'https://media3.giphy.com/media/543O7EebJnnPxDiiPt/giphy.gif'} 
-        name={'GSAP Animation'} 
-        stack={'GSAP3, Scroll-Magic'} 
       />
     </Container>
   );
