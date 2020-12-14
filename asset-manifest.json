@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/jeffreycao1998.github.io/static/js/main.ee126d2d.chunk.js",
-    "main.js.map": "/jeffreycao1998.github.io/static/js/main.ee126d2d.chunk.js.map",
+    "main.js": "/jeffreycao1998.github.io/static/js/main.c09fbcd7.chunk.js",
+    "main.js.map": "/jeffreycao1998.github.io/static/js/main.c09fbcd7.chunk.js.map",
     "runtime-main.js": "/jeffreycao1998.github.io/static/js/runtime-main.b40e3e71.js",
     "runtime-main.js.map": "/jeffreycao1998.github.io/static/js/runtime-main.b40e3e71.js.map",
-    "static/js/2.60d751f2.chunk.js": "/jeffreycao1998.github.io/static/js/2.60d751f2.chunk.js",
-    "static/js/2.60d751f2.chunk.js.map": "/jeffreycao1998.github.io/static/js/2.60d751f2.chunk.js.map",
+    "static/js/2.8d11dc88.chunk.js": "/jeffreycao1998.github.io/static/js/2.8d11dc88.chunk.js",
+    "static/js/2.8d11dc88.chunk.js.map": "/jeffreycao1998.github.io/static/js/2.8d11dc88.chunk.js.map",
     "index.html": "/jeffreycao1998.github.io/index.html",
-    "precache-manifest.8db107db927a81badedcccf450eb3327.js": "/jeffreycao1998.github.io/precache-manifest.8db107db927a81badedcccf450eb3327.js",
+    "precache-manifest.9666b269a5e6a6bd75b7b47c878fde2f.js": "/jeffreycao1998.github.io/precache-manifest.9666b269a5e6a6bd75b7b47c878fde2f.js",
     "service-worker.js": "/jeffreycao1998.github.io/service-worker.js",
-    "static/js/2.60d751f2.chunk.js.LICENSE.txt": "/jeffreycao1998.github.io/static/js/2.60d751f2.chunk.js.LICENSE.txt"
+    "static/js/2.8d11dc88.chunk.js.LICENSE.txt": "/jeffreycao1998.github.io/static/js/2.8d11dc88.chunk.js.LICENSE.txt",
+    "static/media/resume.pdf": "/jeffreycao1998.github.io/static/media/resume.4c8d5496.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.b40e3e71.js",
-    "static/js/2.60d751f2.chunk.js",
-    "static/js/main.ee126d2d.chunk.js"
+    "static/js/2.8d11dc88.chunk.js",
+    "static/js/main.c09fbcd7.chunk.js"
   ]
 }
