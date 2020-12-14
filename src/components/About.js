@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import resume from '../resume.pdf';
 
 const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -94,7 +95,7 @@ const About = () => {
           <p>I’m Jeff, an avionics technician turned full stack developer. I used to think that working in a constantly changing industry would just bring unnecessary stress to my life but now I realise it’s what I actually crave. I want to watch tech evolve from the front row.</p>
           <p>I find software architecture pretty intriguing and it’s what drives me to continuously expand my knowledge in both the front and back end. It’ll be a long journey but I like to believe that persistence always pays off.</p>
           <div className='contact'>
-            <a href='https://www.dropbox.com/s/61svvz65mop6nl2/Jeffrey%20Cao.pdf?dl=0' target='_blank'>Resume</a>
+            <a href={resume} target='_blank'>Resume</a>
             <a href='https://github.com/jeffreycao1998' target='_blank'>Github</a>
             <a href='https://www.linkedin.com/in/jeffrey-cao-05187b133/' target='_blank'>LinkedIn</a>
           </div>
