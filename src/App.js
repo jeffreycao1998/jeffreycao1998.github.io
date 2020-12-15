@@ -32,12 +32,8 @@ const App = () => {
       <AppContainer>
         <ContentContainer>
           <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
+            <Route exact path="/about" render={() => <About/>}/>
+            <Route exact path="/projects" render={() => <Projects/>}/>
             <Route path="/resume" render={() => window.location.href="/JeffreyCao_Resume.pdf"}/>
             <Route path="/">
               <Projects />
