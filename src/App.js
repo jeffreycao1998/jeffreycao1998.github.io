@@ -32,9 +32,9 @@ const App = () => {
       <AppContainer>
         <ContentContainer>
           <Switch>
-            <Route exact path="/about" render={() => <About/>}/>
-            <Route exact path="/projects" render={() => <Projects/>}/>
-            <Route path="/resume" render={() => window.location.href="/JeffreyCao_Resume.pdf"}/>
+            <Route exact path="/resume" render={() => window.location.href="/JeffreyCao_Resume.pdf"}/>
+            <Route path="/about" component={<About/>}/>
+            <Route path="/projects" component={<Projects/>}/>
             <Route path="/">
               <Projects />
             </Route>
