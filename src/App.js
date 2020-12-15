@@ -33,8 +33,8 @@ const App = () => {
         <ContentContainer>
           <Switch>
             <Route exact path="/resume" render={() => window.location.href="/JeffreyCao_Resume.pdf"}/>
-            <Route path="/about" component={<About/>}/>
-            <Route path="/projects" component={<Projects/>}/>
+            <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
             <Route path="/">
               <Projects />
             </Route>
