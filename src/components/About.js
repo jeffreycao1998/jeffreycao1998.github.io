@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from '../JeffreyCao.pdf';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -98,7 +98,7 @@ const About = () => {
             <p>I’m Jeff, an avionics technician turned full stack developer. I used to think that working in a constantly changing industry would just bring unnecessary stress to my life but now I realise it’s what I actually crave. I want to watch tech evolve from the front row.</p>
             <p>I find software architecture pretty intriguing and it’s what drives me to continuously expand my knowledge in both the front and back end. It’ll be a long journey but I like to believe that persistence always pays off.</p>
             <div className='contact'>
-              <a href={resume} target='_blank'>Resume</a>
+              <Link to='/resume'>Resume</Link>
               <a href='https://github.com/jeffreycao1998' target='_blank'>Github</a>
               <a href='https://www.linkedin.com/in/jeffreycao1998/' target='_blank'>LinkedIn</a>
             </div>

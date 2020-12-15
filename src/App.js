@@ -38,6 +38,7 @@ const App = () => {
             <Route path="/projects">
               <Projects />
             </Route>
+            <Route path="/resume" render={() => window.location.href="/JeffreyCao_Resume.pdf"}/>
             <Route path="/">
               <Projects />
             </Route>
