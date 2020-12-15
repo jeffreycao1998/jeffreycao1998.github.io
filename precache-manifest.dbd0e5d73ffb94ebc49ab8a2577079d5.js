@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f2c799ac4cd39bc2965e636a1e03a59",
+    "revision": "fad6b65c7ad0fffbbdced01dc5c07ea7",
     "url": "/jeffreycao1998.github.io/index.html"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jeffreycao1998.github.io/static/js/2.8d11dc88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3406a10a513ca0c9d124",
-    "url": "/jeffreycao1998.github.io/static/js/main.6b536d72.chunk.js"
+    "revision": "6f215f73b8df453cdd40",
+    "url": "/jeffreycao1998.github.io/static/js/main.de9f7b8c.chunk.js"
   },
   {
     "revision": "06806b1e958fd4a85795",
     "url": "/jeffreycao1998.github.io/static/js/runtime-main.b40e3e71.js"
   },
   {
-    "revision": "67ff0b15c361b2c59cd0150700d24e96",
-    "url": "/jeffreycao1998.github.io/static/media/JeffreyCao.67ff0b15.pdf"
+    "revision": "27ed78209477101f7151bea4d0ac9374",
+    "url": "/jeffreycao1998.github.io/static/media/JeffreyCao.27ed7820.pdf"
   }
 ]);
