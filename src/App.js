@@ -1,6 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from './components/Header';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+import About from './components/About';
+import Projects from './components/Projects';
 
 const AppContainer = styled.div`
   position: relative;
@@ -22,11 +28,23 @@ const ContentContainer = styled.div`
 
 const App = () => {
   return (
-    <AppContainer>
-      <ContentContainer>
-        <Header />
-      </ContentContainer>
-    </AppContainer>
+    <Router>
+      <AppContainer>
+        <ContentContainer>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/">
+              <Projects />
+            </Route>
+          </Switch>
+        </ContentContainer>
+      </AppContainer>
+    </Router>
   );
 };
 

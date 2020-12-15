@@ -1,15 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import ScrambleText from 'scramble-text';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from 'react-router-dom';
-
-import About from './About.js';
-import Projects from './Projects.js';
+import { Link } from 'react-router-dom';
 
 const HeaderContainer = styled.div`
   height: 102px;
@@ -76,7 +68,7 @@ const Header = () => {
   useEffect(() => {
     const name = document.querySelector('.name');
     const scrambleText = new ScrambleText(name, {
-      timeOffset: 200,
+      timeOffset: 100,
       chars: [
         '安','以','宇','衣','於',
         '加','幾','久','計','己',
@@ -94,32 +86,19 @@ const Header = () => {
   },[]);
 
   return(
-    <Router>
-      <HeaderContainer>
-        <div className='name'>Jeffrey Cao</div>
-        <nav>
-          <ul>
-            <li>
-              <Link to='/about'>About</Link>
-            </li>
-            <li>
-              <Link to='/projects'>Projects</Link>
-            </li>
-          </ul>
-        </nav>
-      </HeaderContainer>
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/">
-          <Projects />
-        </Route>
-      </Switch>
-    </Router>
+    <HeaderContainer>
+      <div className='name'>Jeffrey Cao</div>
+      <nav>
+        <ul>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <Link to='/projects'>Projects</Link>
+          </li>
+        </ul>
+      </nav>
+    </HeaderContainer>
   );
 };
 
