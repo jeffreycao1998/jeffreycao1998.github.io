@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd63753e8291ec70dd0c2ad6e4d8b5b1",
+    "revision": "1e4cb2dc0652e1bca1aaa7964398cd75",
     "url": "/jeffreycao1998.github.io/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jeffreycao1998.github.io/static/js/2.0eeb06ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60e91ea628eda755bd7f",
-    "url": "/jeffreycao1998.github.io/static/js/main.f03ad841.chunk.js"
+    "revision": "c9791bb10d0d4cdbc16c",
+    "url": "/jeffreycao1998.github.io/static/js/main.d8cb9204.chunk.js"
   },
   {
     "revision": "06806b1e958fd4a85795",
