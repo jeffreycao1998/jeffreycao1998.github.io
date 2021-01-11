@@ -96,7 +96,7 @@ const About = () => {
           <div className='text'>
             <h1 className='title'>Hi there!</h1>
             <p>I’m Jeff, an avionics technician turned full stack developer. I used to think that working in a constantly changing industry would just bring unnecessary stress to my life but now I realise it’s what I actually crave. I want to watch tech evolve from the front row.</p>
-            <p>I find software architecture pretty intriguing and it’s what drives me to continuously expand my knowledge in both the front and back end. It’ll be a long journey but I like to believe that persistence always pays off.</p>
+            <p>I find software architecture pretty intriguing and it’s what drives me to continuously expand my knowledge in both the front and back end. It’ll be a long journey but I like to believe that persistence always pays off. =)</p>
             <div className='contact'>
               <Link to='/resume'>Resume</Link>
               <a href='https://github.com/jeffreycao1998' target='_blank'>Github</a>
