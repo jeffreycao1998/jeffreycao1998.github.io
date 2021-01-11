@@ -33,6 +33,12 @@ const Projects = () => {
       <Header/>
       <Container>
         <Project 
+          link={'http://shopifyclone-client.s3-website-us-east-1.amazonaws.com/'}
+          imageUrl={'https://raw.githubusercontent.com/jeffreycao1998/shopify-clone/master/client/documents/5.gif'} 
+          name={'Shopify Clone'} 
+          stack={'TS, React, Node, GraphQL, Postgres, Sequelize, AWS Lambda / RDS / S3'} 
+        />
+        <Project 
           link={'https://github.com/jeffreycao1998/sudoku-solver'}
           imageUrl={'https://media1.giphy.com/media/pny4FrpjB0LPQJ3zvT/giphy.gif'} 
           name={'Sudoku Solver'} 
