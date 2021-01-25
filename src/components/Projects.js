@@ -33,6 +33,12 @@ const Projects = () => {
       <Header/>
       <Container>
         <Project 
+          link={'https://github.com/jeffreycao1998/route-mapper'}
+          imageUrl={'https://raw.githubusercontent.com/jeffreycao1998/route-mapper/master/documents/create-delete.gif'} 
+          name={'Route Mapper'} 
+          stack={'TS, React, Mapbox, Node, GraphQL'} 
+        />
+        <Project 
           link={'http://shopifyclone-client.s3-website-us-east-1.amazonaws.com/'}
           imageUrl={'https://raw.githubusercontent.com/jeffreycao1998/shopify-clone/master/client/documents/5.gif'} 
           name={'Shopify Clone'} 
